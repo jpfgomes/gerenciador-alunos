@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src", // Adicione esta linha (ou descomente e ajuste)
+    "outDir": "./dist", // Adicione esta linha (ou descomente e ajuste)
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true // Adicione esta linha (ou descomente)
+  },
+  "include": ["src/**/*"] // Adicione esta linha para incluir todos os arquivos em src
+}
